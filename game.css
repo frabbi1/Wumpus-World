@@ -1,0 +1,61 @@
+body{
+    margin: 2% 12% 1px 12%;
+}
+
+#mainBody{
+    width: 620px;
+    height: 620px;
+    border: 1px solid black;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    background-color: coral;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.man-right{
+    background-image: url("./images/manR.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.man-left{
+    background-image: url("./images/manL.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.man-up{
+    background-image: url("./images/manU.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.man-down{
+    background-image: url("./images/manD.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.visited{
+    background-color: gainsboro;
+    
+}
+
+.wumpus{
+    background-image: url("./images/wumpusP.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: brown;
+}
+.pit{
+    background-image: url("./images/pit.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.gold{
+    background-image: url("./images/goldBar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: gainsboro;
+}
